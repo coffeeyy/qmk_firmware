@@ -52,3 +52,5 @@
  * This is userful for the Windows task manager shortcut (ctrl+shift+esc).
  */
 #define GRAVE_ESC_CTRL_OVERRIDE
+
+#define DYNAMIC_MACRO_SIZE 256
