@@ -25,6 +25,7 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
+DYNAMIC_MACRO_ENABLE = yes  # Enable Dynamic Macros
 
 # Custom RGB matrix handling
 RGB_MATRIX_ENABLE = no
