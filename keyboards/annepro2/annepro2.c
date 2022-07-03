@@ -75,7 +75,7 @@ void keyboard_pre_init_kb(void) {
     sdStart(&SD0, &led_uart_init_config);
     /* Let the LED chip settle a bit before switching the mode.
      * That helped at least one person. */
-    wait_ms(15);
+    wait_ms(100);
     sdWrite(&SD0, led_mcu_wakeup, sizeof(led_mcu_wakeup));
 
     // wait to receive response from wakeup

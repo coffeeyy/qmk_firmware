@@ -47,3 +47,11 @@
 
 // Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
 #define PERMISSIVE_HOLD
+
+/* If defined, GRAVE_ESC will always act as ESC when CTRL is held.
+ * This is userful for the Windows task manager shortcut (ctrl+shift+esc).
+ */
+#define GRAVE_ESC_CTRL_OVERRIDE
+
+// increase dynamic macros buffer
+#define DYNAMIC_MACRO_SIZE 256
